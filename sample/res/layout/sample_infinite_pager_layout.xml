@@ -1,0 +1,28 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_dark" >
+    
+    <ru.surfstudio.infinitepageindicator.InfiniteCirclePageIndicator
+        android:id="@+id/sample_infinite_page_indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/background_dark"
+        app:fillColor="@color/default_circle_indicator_fill_color"
+        app:pageColor="@android:color/holo_purple"
+        app:radius="4dp"
+        app:strokeColor="@color/default_circle_indicator_stroke_color"
+        app:strokeWidth="0dp" />
+
+    <com.antonyt.infiniteviewpager.InfiniteViewPager
+        android:id="@+id/sample_infinite_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/sample_infinite_page_indicator" />
+
+</RelativeLayout>
