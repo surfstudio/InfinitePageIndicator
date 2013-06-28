@@ -1,0 +1,4 @@
+InfinitePageIndicator
+=====================
+
+Infinite Page Indicator
