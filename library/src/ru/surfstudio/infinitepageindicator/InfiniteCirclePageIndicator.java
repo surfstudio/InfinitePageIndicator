@@ -104,7 +104,7 @@ public class InfiniteCirclePageIndicator extends View implements PageIndicator {
 
         a.recycle();
 
-        final ViewConfiguration configuration = ViewConfiguration.get(context);
+//        final ViewConfiguration configuration = ViewConfiguration.get(context);
 //        mTouchSlop = ViewConfigurationCompat.getScaledPagingTouchSlop(configuration);
     }
 
